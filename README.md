@@ -1,12 +1,27 @@
-My project is titled "Cerebral-Stroke-Prediction" to predict whether a patient has a stroke or not, in order to provide timely interventions.
+Project Title: "Cerebral-Stroke-Prediction" for predicting whether a patient will suffer from a stroke, in order to provide timely interventions.
 
-The input data is taken from Kaggle, and this dataset suffers from heavy imbalance, so we need to apply techniques to balance it. The most effective model here is SVM with the UnderSampling method, which gives the best results.
+Input Features:
 
-In the code, I have provided detailed descriptions in Vietnamese to support Vietnamese users.
+id: A unique identifier for each patient in the dataset.
+gender: The gender of the patient, which can be "Male" or "Female".
+age: The age of the patient, represented in years.
+hypertension: Information about the patient's hypertension status, with a value of 0 if absent and 1 if present.
+heart_disease: Information about the patient's heart disease status, with a value of 0 if absent and 1 if present.
+ever_married: Information about the patient's marital status, which can be "No" (Not married) or "Yes" (Married).
+work_type: The patient's type of work, which can be "Private", "Self-employed", "Govt_job", "children", or "Never_worked".
+Residence_type: The patient's type of residence, which can be "Urban" or "Rural".
+avg_glucose_level: The patient's average blood glucose level.
+bmi: The patient's body mass index (BMI), calculated from height and weight.
+smoking_status: Information about the patient's smoking status, which can be "never smoked", "smokes", or "formerly smoked".
+stroke: The target variable, with a value of 0 if the patient does not suffer from a stroke and 1 if the patient has had a stroke.
+Project Introduction: My project is titled "Cerebral-Stroke-Prediction", with the goal of predicting whether a patient will suffer from a stroke so that timely interventions can be provided. The input data is sourced from Kaggle, and this dataset is severely imbalanced, so we need to apply techniques like UnderSampling to balance the data.
 
-After completion, I have deployed it on the Streamlit library for experimentation, and it has yielded good results: https://dp-machine-predict.streamlit.app/
+The most effective model for this case is SVM (Support Vector Machine), and using UnderSampling yielded the best results.
 
-This is the project I have completed and refined. If it is useful, I hope you will give your support to me.
+I have written the code with clear explanations in Vietnamese to assist Vietnamese users.
+
+After completing the project, I deployed it on Streamlit for experimentation and achieved good results. You can check it out here: https://dp-machine-predict.streamlit.app/.
+
+This is the project I have worked on and completed. If you find it useful, I would appreciate your support.
 
 Thank you!
-
