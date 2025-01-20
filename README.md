@@ -1,5 +1,6 @@
 Project Title: "Cerebral-Stroke-Prediction" for predicting whether a patient will suffer from a stroke, in order to provide timely interventions.
 
+
 Input Features:
 
 id: A unique identifier for each patient in the dataset.
@@ -25,6 +26,7 @@ bmi: The patient's body mass index (BMI), calculated from height and weight.
 smoking_status: Information about the patient's smoking status, which can be "never smoked", "smokes", or "formerly smoked".
 
 stroke: The target variable, with a value of 0 if the patient does not suffer from a stroke and 1 if the patient has had a stroke.
+
 
 
 Project Introduction: My project is titled "Cerebral-Stroke-Prediction", with the goal of predicting whether a patient will suffer from a stroke so that timely interventions can be provided. The input data is sourced from Kaggle, and this dataset is severely imbalanced, so we need to apply techniques like UnderSampling to balance the data.
