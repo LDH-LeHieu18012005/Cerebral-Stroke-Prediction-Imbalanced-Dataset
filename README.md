@@ -35,8 +35,6 @@ The most effective model for this case is SVM (Support Vector Machine), and usin
 
 I have written the code with clear explanations in Vietnamese to assist Vietnamese users.
 
-After completing the project, I deployed it on Streamlit for experimentation and achieved good results. You can check it out here: https://dp-machine-predict.streamlit.app/.
-
 This is the project I have worked on and completed. If you find it useful, I would appreciate your support.
 
 Thank you!
